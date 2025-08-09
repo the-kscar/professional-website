@@ -8,7 +8,7 @@ A modern, responsive portfolio website showcasing professional experience at Mic
 - **Modern UI/UX**: Clean, professional design with smooth animations
 - **Interactive Elements**: Hover effects, smooth scrolling, and dynamic content
 - **Professional Sections**: About, Experience, Hobbies, and Contact information
-- **Social Media Integration**: LinkedIn profile integration
+- **Social Media Integration**: LinkedIn, GitHub, X (Twitter), and Strava profiles
 - **Performance Optimized**: Fast loading with optimized assets
 
 ## Setup Instructions
@@ -16,7 +16,7 @@ A modern, responsive portfolio website showcasing professional experience at Mic
 ### 1. Image Setup
 You need to add your images to the website directory:
 
-1. **Professional Photo** (`professional-photo.jpg`):
+1. **Professional Photo** (`professional-photo.jpeg`):
    - Save your professional headshot (the first image you provided) as `professional-photo.jpg`
    - Recommended size: 500x500px or larger, square aspect ratio
    - This will be displayed in the hero section
@@ -133,4 +133,4 @@ If you need help customizing or deploying the website, the code is well-commente
 ✅ Easy to customize  
 ✅ Modern animations  
 ✅ Contact integration  
-✅ Social media links  
+✅ Social media links
