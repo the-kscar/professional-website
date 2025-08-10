@@ -1,5 +1,6 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: the-kscar/professional-website
   branch: main # Branch to update (optional; defaults to master)
 
 # These lines should *not* be indented

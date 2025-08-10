@@ -1,0 +1,29 @@
+{
+  "routes": [
+    {
+      "route": "/admin/*",
+      "headers": {
+        "cache-control": "must-revalidate, max-age=6000"
+      }
+    },
+    {
+      "route": "/blog/*",
+      "headers": {
+        "cache-control": "public, max-age=604800"
+      }
+    },
+    {
+      "route": "/images/*",
+      "headers": {
+        "cache-control": "public, max-age=604800"
+      }
+    }
+  ],
+  "navigationFallback": {
+    "rewrite": "/index.html",
+    "exclude": ["/images/*.{png,jpg,gif,jpeg,svg}", "/admin/*", "/blog/*"]
+  },
+  "mimeTypes": {
+    ".md": "text/plain"
+  }
+}
